@@ -29,5 +29,7 @@ document.getElementById("myButton").onclick = function () {
             } else {
                 alert("You've broken the program so much that it has displayed this message!")
             }
+    } else {
+        alert("That is not a valid option! Please try again!");
     }
 }
