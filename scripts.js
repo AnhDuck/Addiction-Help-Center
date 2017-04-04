@@ -24,7 +24,7 @@ document.getElementById("myButton").onclick = function () {
         alert("Welcome to the addiction calculator!");
         response = prompt("Type in A: for Weed. Or B: for Video Games.");
         response = response.toLowerCase();
-    }
+    } 
 
     // ASK FOR HOW MUCH THE USER "BLAZES" PER WEEK
     function askWeed() {
@@ -33,6 +33,10 @@ document.getElementById("myButton").onclick = function () {
             alert("I'm sorry, you're addicted!");
         } else if (weedResponse === "0") {
             alert("You're not addicted!");
+        } else if (typeof weedResponse === "string") {
+            alert("You typed in " + "'" + weedResponse + "'" + " which is a string value, please enter an integer value next time.");
+        } else {
+            alert("You've broken the program so much that it has displayed this message!");
         }
     }
 
