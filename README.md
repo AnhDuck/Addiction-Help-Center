@@ -6,3 +6,5 @@ This is a simple website intended for users to find out if they are addicted or 
 ## Supported Addictions:
 - Weed 🌿
 - Video Games 🎮
+- Alcohol 🍷
+- Fentanyl 💊
